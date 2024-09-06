@@ -52,7 +52,10 @@ span{
     font-style: bold;
     
 }
-
+.span-class{
+    color: white;
+    font-style: Bold;
+}
 
 
 
@@ -73,6 +76,7 @@ span{
 
 .home-resume-container-card-text {
     margin-bottom: 30px;
+    font-size: 2rem;
 }
 .home-image{
     /* max-width: 100%;
@@ -302,6 +306,7 @@ span{
 .about-resume-container-card-description {
     font-size: 1rem;
     color: #ccc;
+    text-align: center;
 }
 
 /* service */
@@ -840,3 +845,9 @@ img {
     }
   }
   
+  /* putting the animation */
+  /* Animation on hover */
+.about-resume-container-card:hover {
+    transform: translateY(-10px) scale(1.05); /* Move the card up and slightly enlarge */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow */
+}
